@@ -20,7 +20,7 @@ const email = "example@test.com";
 console.log(validateEmail(email)); 
 
 
-
+// Password
 function validatePassword(password) {
     const passwordRegex = /^(?=.*[A-Z])(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$/;
     return passwordRegex.test(password);
