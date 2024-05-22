@@ -1,0 +1,40 @@
+body{
+    background-color:black ;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+input{
+    padding: 5px;
+
+}
+
+#form{
+margin-top: 10px;
+
+}
+
+
+
+h1{
+    text-align: center;
+    color: white;
+
+}
+:hover{
+    color: blue;
+}
+
+button{
+    margin-top: 5px;
+    text-decoration: dotted;
+    
+}
+
+
+button:hover{
+    color: rgb(243, 239, 248);
+    background-color: rgb(17, 196, 26);
+}
