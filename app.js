@@ -39,6 +39,9 @@ const cnic = "12345-1234567-1";
 
 console.log(validateCNIC(cnic)); 
 
+
+// Age
+
 function validateAge(age) {
     return age >= 18 && age <= 60;
 }
