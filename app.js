@@ -30,7 +30,7 @@ const password = 'abcd'
 console.log(validatePassword(password));
 
 
-
+// Cnic
 function validateCNIC(cnic) {
     const cnicRegex = /^\d{5}-\d{7}-\d{1}$/;
     return cnicRegex.test(cnic);
